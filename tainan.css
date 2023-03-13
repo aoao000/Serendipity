@@ -1,0 +1,893 @@
+* {
+    max-width: 100%;
+    padding: 0px;
+    font-family: 'Kiwi Maru', serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+    line-height: 30px;
+  }
+
+  .navbar {
+    background-image: url("https://github.com/catstar61529/Home/blob/main/bg0.png?raw=true");
+    background-size: 100% 100%;
+    padding: 0 0;
+    font-size: 20px;
+    color: #095695;
+  }
+
+  .navbar a {
+    color: inherit; /* 移除超連結顏色 */
+    text-decoration: none;  /* 移除超連結底線 */
+    display: block; /* 讓 <a> 填滿 <li> */
+}
+
+.navbar a:hover {
+  background-color: #77b4ff;
+  color: white;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 80px;
+  }
+
+  section#map {
+    background-color: #151f34;
+    overflow: hidden;
+  }
+  section#map h1 {
+    text-align: center;
+    margin: auto;
+    position: relative;
+    color: #a2a45f;
+    font-weight: 400;
+    text-shadow: 0px 3px 2px #07155e;
+    font-size: 70px;
+    margin-top: 70px;
+  }
+  .img2 {
+    background-image: url("https://github.com/catstar61529/Home/blob/main/tainan-1.png?raw=true");
+    background-size: 100% 100%;
+    padding-bottom: 90px;
+    padding-left: 100px;
+  }
+  .img-map {
+    background-image: url("https://github.com/catstar61529/Home/blob/main/tainan1.png?raw=true");
+    background-size: 100% 100%;
+    margin-top: 72px;
+    margin-left: 100px;
+    border-radius: 50px;
+    margin-top: -15%;
+  }
+  .square1 {
+    max-width: 512px;
+    height: 336px;
+    margin-top: -176px;
+    margin-left: 538px;
+    background-color: #314777;
+    padding-top: 16px;
+    border-radius: 50px;
+  }
+  section#map h3 {
+    text-align: center;
+    margin: auto;
+    font-size: 24px;
+    position: relative;
+    margin-top: 8px;
+    color: #fde06f;
+    font-weight: bold;
+    max-width: 202px;
+  }
+  section#map h4 {
+    text-align: left;
+    margin: auto;
+    font-size: 20px;
+    position: relative;
+    margin-top: 24px;
+    padding-bottom: 16px;
+    color: #ffffff;
+    max-width: 448px;
+    height: 195px;
+    letter-spacing: 3px;
+    line-height: 33px;
+    font-weight: 500;
+  }
+  .circle1 {
+    width: 225px;
+    height: 225px;
+    border-radius: 50%;
+    margin: auto;
+    background-image: url("https://github.com/catstar61529/Four-of-us/blob/gh-pages/%E6%9F%93%E8%89%B21.jpg?raw=true");
+    background-size: 100% 100%;
+    margin-right: 0px;
+  }
+  
+  .circle2 {
+    width: 225px;
+    height: 225px;
+    border-radius: 50%;
+    margin: auto;
+    background-image: url("https://github.com/catstar61529/Four-of-us/blob/gh-pages/%E8%97%8D%E6%9F%93%E6%B2%BF%E9%9D%A92.png?raw=true");
+    background-size: 100% 100%;
+    margin-left: 0px;
+  }
+  .circle3 {
+    width: 225px;
+    height: 225px;
+    border-radius: 50%;
+    margin: auto;
+    background-image: url("https://github.com/catstar61529/Four-of-us/blob/gh-pages/%E8%97%8D%E6%9F%93%E6%B2%BF%E9%9D%A93.png?raw=true");
+    background-size: 100% 100%;
+    margin-right: 0px;
+    margin-top: 24px;
+  }
+  .square2 {
+    max-width: 588px;
+    background-color: #314777;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+    text-align: right;
+    padding-bottom: 16px;
+  }
+  
+  section#place h1 {
+    text-align: center;
+    margin: auto;
+    font-size: 48px;
+    position: relative;
+    color: #a2a45f;
+    padding-bottom: 30px;
+    text-shadow: 0px 3px 2px #07155e;
+  }
+
+  .square3{
+    background: #a2a45f;
+    width: 580px;
+    height: 5px;
+    box-shadow: 3px 3px #314777;
+    text-align: center;
+    margin:auto;
+  }
+
+  .img5 {
+    background-image: url("https://github.com/catstar61529/Home/blob/main/tainan-2.png?raw=true");
+    background-size: 100% 100%;
+    max-width: 100%;
+    background-color: #314777;
+  }
+
+  .img6 {
+    background-image: url("https://github.com/catstar61529/Home/blob/main/tainan-3.png?raw=true");
+    background-size: 100% 100%;
+    max-width: 100%;
+    background-color: #314777;
+  }
+  
+  section#place h2 {
+    text-align: left;
+    font-size: 28px;
+    position: relative;
+    max-width: 520px;
+    max-height: 270px;
+    letter-spacing: 3px;
+    line-height: 33px;
+    margin: auto;
+    width: 600px;
+    color: #ffebcd;
+    font-weight: 300;
+    line-height: 50px;
+    letter-spacing: 3px;
+  }
+  section#map h2 {
+    text-align: left;
+    font-size: 20px;
+    position: relative;
+    color: #ffffff;
+    max-width: 520px;
+    max-height: 270px;
+    letter-spacing: 3px;
+    line-height: 33px;
+    margin: auto;
+  }
+  section#place h3 {
+    text-align: center;
+    margin: auto;
+    font-size: 36px;
+    position: relative;
+    color: #fde06f;
+    max-width: 550px;
+    height: 40px;
+    letter-spacing: 3px;
+    line-height: 33px;
+    margin-top: 32px;
+    margin-bottom: 24px;
+    font-weight: bold;
+    max-width: 123px;
+  }
+  section#place h4 {
+    text-align: center;
+    margin: auto;
+    font-size: 24px;
+    position: relative;
+    color: #fde06f;
+    max-width: 88px;
+    height: 34px;
+    letter-spacing: 3px;
+    line-height: 33px;
+    margin-bottom: 24px;
+    font-weight: bold;
+  }
+  section#place h5 {
+    text-align: center;
+    margin: auto;
+    font-size: 14px;
+    position: relative;
+    color: #ffffff;
+    max-width: 168px;
+    height: 96px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-weight: bold;
+  }
+  .bg4 {
+    background-image: url("https://github.com/catstar61529/Home/blob/main/tainan-4.png?raw=true");
+    background-size: 100% 100%;
+    background-color: #5a355a;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    padding-top: 168px;
+    padding-bottom: 168px;
+  }
+  section#s6 h1 {
+    text-align: center;
+    margin: auto;
+    font-size: 48px;
+    position: relative;
+    color: #a2a45f;
+    text-shadow: 0px 3px 2px #07155e;
+    padding-bottom: 30px;
+  }
+  section#s6 h2 {
+    text-align: left;
+    margin: auto;
+    font-size: 28px;
+    position: relative;
+    color: #ffebcd;
+    max-width: 580px;
+    line-height: 50px;
+    margin-top: 56px;
+    font-weight: 300;
+    letter-spacing: 2px;
+  }
+  section#s6 h3 {
+    text-align: center;
+    margin: auto;
+    font-size: 24px;
+    position: relative;
+    color: #fde06f;
+    max-width: 256px;
+    height: 34px;
+    letter-spacing: 1px;
+    line-height: 33px;
+    margin-top: 40px;
+    font-weight: bold;
+  }
+  section#s6 h4 {
+    text-align: left;
+    margin: auto;
+    font-size: 20px;
+    position: relative;
+    color: #ffffff;
+    max-width: 352px;
+    height: 144px;
+    letter-spacing: 1px;
+    line-height: 33px;
+    margin-top: 24px;
+  }
+  .bg5 {
+    background-image: url("https://github.com/catstar61529/Home/blob/main/tainan-5.png?raw=true");
+    background-color: #4e7984;
+    background-size: 100% 100%;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    padding-top: 168px;
+    padding-bottom: 168px;
+  }
+  section#s7 h1 {
+    text-align: center;
+    margin: auto;
+    font-size: 48px;
+    position: relative;
+    color: #a2a45f;
+    text-shadow: 0px 3px 2px #07155e;
+    padding-bottom: 30px;
+  }
+  section#s7 h2 {
+    text-align: left;
+    margin: auto;
+    font-size: 28px;
+    position: relative;
+    color: #ffebcd;
+    max-width: 580px;
+    line-height: 50px;
+    margin-top: 56px;
+    font-weight: 300;
+    letter-spacing: 2px;
+  }
+  section#s7 h3 {
+    text-align: center;
+    margin-top: 16px;
+    font-size: 24px;
+    position: relative;
+    margin: auto;
+    letter-spacing: 5px;
+    max-width: 176px;
+    max-height: 68px;
+    color: #151f34;
+    letter-spacing: 1px;
+    line-height: 33px;
+    font-weight: bold;
+    margin-top: 16px;
+  }
+  section#s7 h4 {
+    text-align: left;
+    margin-top: 16px;
+    font-size: 16px;
+    position: relative;
+    margin: auto;
+    letter-spacing: 5px;
+    max-width: 388px;
+    max-height: 168px;
+    color: #314777;
+    letter-spacing: 1px;
+    line-height: 33px;
+    font-weight: bold;
+    margin-top: 16px;
+  }
+  
+  .bg6 {
+    background-image: url("https://github.com/catstar61529/Four-of-us/blob/gh-pages/page8_bg.png?raw=true");
+    background-color: #8d8068;
+    background-size: 100% 100%;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    padding-top: 168px;
+    padding-bottom: 168px;
+  }
+  .bg7 {
+    background-color: #151f34;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    padding-top: 168px;
+    padding-bottom: 168px;
+  }
+  
+  
+  /* Common style */
+  .grid figure {
+      position: relative;
+      float: left;
+      overflow: hidden;
+      margin: 10px 1%;
+      min-width: 320px;
+      max-width: 480px;
+      max-height: 360px;
+      width: 48%;
+      background: #3085a3;
+      text-align: center;
+      cursor: pointer;
+  }
+  
+  .grid figure img {
+      position: relative;
+      display: block;
+      min-height: 100%;
+      max-width: 100%;
+      opacity: 0.8;
+  }
+  
+  .grid figure figcaption {
+      padding: 2em;
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 1.25em;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+  }
+  
+  .grid figure figcaption::before,
+  .grid figure figcaption::after {
+      pointer-events: none;
+  }
+  
+  .grid figure figcaption,
+  .grid figure figcaption > a {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+  }
+  
+  /* Anchor will cover the whole item by default */
+  /* For some effects it will show as a button */
+  .grid figure figcaption > a {
+      z-index: 1000;
+      text-indent: 200%;
+      white-space: nowrap;
+      font-size: 0;
+      opacity: 0;
+  }
+  
+  .grid figure h2 {
+      word-spacing: -0.15em;
+      font-weight: 300;
+  }
+  
+  .grid figure h2 span {
+      font-weight: 800;
+  }
+  
+  .grid figure h2,
+  .grid figure p {
+      margin: 0;
+  }
+  
+  .grid figure p {
+      letter-spacing: 1px;
+      font-size: 68.5%;
+  }
+  
+  /*---------------*/
+  /***** Lily *****/
+  /*---------------*/
+  
+  figure.effect-lily img {
+      max-width: none;
+      width: -webkit-calc(100% + 50px);
+      width: calc(100% + 50px);
+      opacity: 0.85;
+      -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+      transition: opacity 0.35s, transform 0.35s;
+      -webkit-transform: translate3d(-40px,0, 0);
+      transform: translate3d(-40px,0,0);
+  }
+  
+  figure.effect-lily figcaption {
+      text-align: left;
+  }
+  
+  figure.effect-lily figcaption > div {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      padding: 2em;
+      width: 100%;
+      height: 50%;
+  }
+  
+  figure.effect-lily h2,
+  figure.effect-lily p {
+      -webkit-transform: translate3d(0,40px,0);
+      transform: translate3d(0,40px,0);
+  }
+  
+  figure.effect-lily h2 {
+      -webkit-transition: -webkit-transform 0.35s;
+      transition: transform 0.35s;
+      font-size: 28px;
+  }
+  
+  figure.effect-lily p {
+      color: rgba(255,255,255,0.8);
+      font-size: 16px;
+      opacity: 0;
+      -webkit-transition: opacity 0.2s, -webkit-transform 0.35s;
+      transition: opacity 0.2s, transform 0.35s;
+  }
+  
+  figure.effect-lily:hover img{
+      opacity: 0.4;
+  }
+  figure.effect-lily:hover p {
+      opacity: 1;
+  }
+  
+  figure.effect-lily:hover img,
+  figure.effect-lily:hover h2,
+  figure.effect-lily:hover p {
+      -webkit-transform: translate3d(0,0,0);
+      transform: translate3d(0,0,0);
+  }
+  
+  figure.effect-lily:hover p {
+      -webkit-transition-delay: 0.05s;
+      transition-delay: 0.05s;
+      -webkit-transition-duration: 0.35s;
+      transition-duration: 0.35s;
+  }
+  
+  /*---------------*/
+  /***** Sadie *****/
+  /*---------------*/
+  
+  figure.effect-sadie figcaption::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: -webkit-linear-gradient(top, rgba(72,76,97,0) 0%, rgba(72,76,97,0.8) 75%);
+      background: linear-gradient(to bottom, rgba(72,76,97,0) 0%, rgba(72,76,97,0.8) 75%);
+      content: '';
+      opacity: 0;
+      -webkit-transform: translate3d(0,50%,0);
+      transform: translate3d(0,50%,0);
+  }
+  
+  figure.effect-sadie h2 {
+      position: absolute;
+      font-size: 28px;
+      top: 50%;
+      left: 0;
+      width: 100%;
+      color: #484c61;
+      -webkit-transition: -webkit-transform 0.35s, color 0.35s;
+      transition: transform 0.35s, color 0.35s;
+      -webkit-transform: translate3d(0,-50%,0);
+      transform: translate3d(0,-50%,0);
+  }
+  
+  figure.effect-sadie figcaption::before,
+  figure.effect-sadie p {
+      -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+      transition: opacity 0.35s, transform 0.35s;
+  }
+  
+  figure.effect-sadie p {
+      position: absolute;
+      font-size: 16px;
+      bottom: 0;
+      left: 0;
+      padding: 2em;
+      width: 100%;
+      opacity: 0;
+      -webkit-transform: translate3d(0,10px,0);
+      transform: translate3d(0,10px,0);
+  }
+  
+  figure.effect-sadie:hover h2 {
+      color: #fff;
+      -webkit-transform: translate3d(0,-50%,0) translate3d(0,-40px,0);
+      transform: translate3d(0,-50%,0) translate3d(0,-40px,0);
+  }
+  
+  figure.effect-sadie:hover figcaption::before ,
+  figure.effect-sadie:hover p {
+      opacity: 1;
+      -webkit-transform: translate3d(0,0,0);
+      transform: translate3d(0,0,0);
+  }
+  
+  /*---------------*/
+  /***** Layla *****/
+  /*---------------*/
+  figure.effect-layla {
+      background: #054b2d;
+      border-radius: 50px;
+  }
+  
+  figure.effect-layla img {
+      height: 450px;
+  }
+  
+  figure.effect-layla figcaption {
+      padding: 3em;
+  }
+  
+  figure.effect-layla figcaption::before,
+  figure.effect-layla figcaption::after {
+      position: absolute;
+      content: '';
+      opacity: 0;
+  }
+  
+  figure.effect-layla figcaption::before {
+      top: 50px;
+      right: 30px;
+      bottom: 50px;
+      left: 30px;
+      border-top: 1px solid #fff;
+      border-bottom: 1px solid #fff;
+      -webkit-transform: scale(0,1);
+      transform: scale(0,1);
+      -webkit-transform-origin: 0 0;
+      transform-origin: 0 0;
+  }
+  
+  figure.effect-layla figcaption::after {
+      top: 40px;
+      right: 50px;
+      bottom: 40px;
+      left: 50px;
+      border-right: 1px solid #fff;
+      border-left: 1px solid #fff;
+      -webkit-transform: scale(1,0);
+      transform: scale(1,0);
+      -webkit-transform-origin: 100% 0;
+      transform-origin: 100% 0;
+  }
+  
+  figure.effect-layla h2 {
+      padding-top: 20%;
+      font-size: 28px;
+      -webkit-transition: -webkit-transform 0.35s;
+      transition: transform 0.35s;
+  }
+  
+  figure.effect-layla p {
+      padding: 0.5em 2em;
+      text-transform: none;
+      opacity: 0;
+      -webkit-transform: translate3d(0,-10px,0);
+      transform: translate3d(0,-10px,0);
+      font-size: 16px;
+  }
+  
+  figure.effect-layla img,
+  figure.effect-layla h2 {
+      -webkit-transform: translate3d(0,-30px,0);
+      transform: translate3d(0,-30px,0);
+  }
+  
+  figure.effect-layla img,
+  figure.effect-layla figcaption::before,
+  figure.effect-layla figcaption::after,
+  figure.effect-layla p {
+      -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+      transition: opacity 0.35s, transform 0.35s;
+  }
+  
+  figure.effect-layla:hover img {
+      opacity: 0.7;
+      -webkit-transform: translate3d(0,0,0);
+      transform: translate3d(0,0,0);
+  }
+  
+  figure.effect-layla:hover figcaption::before,
+  figure.effect-layla:hover figcaption::after {
+      opacity: 1;
+      -webkit-transform: scale(1);
+      transform: scale(1);
+  }
+  
+  figure.effect-layla:hover h2,
+  figure.effect-layla:hover p {
+      opacity: 1;
+      -webkit-transform: translate3d(0,0,0);
+      transform: translate3d(0,0,0);
+  }
+  
+  figure.effect-layla:hover figcaption::after,
+  figure.effect-layla:hover h2,
+  figure.effect-layla:hover p,
+  figure.effect-layla:hover img {
+      -webkit-transition-delay: 0.15s;
+      transition-delay: 0.15s;
+  }
+  
+  /*---------------*/
+  /***** Roxy *****/
+  /*---------------*/
+  figure.effect-roxy {
+      background: -webkit-linear-gradient(45deg, #ff89e9 0%, #05abe0 100%);
+      background: linear-gradient(45deg, #ff89e9 0%,#05abe0 100%);
+      border-radius: 50px;
+  }
+  
+  figure.effect-roxy img {
+      max-width: none;
+      width: -webkit-calc(100% + 60px);
+      width: calc(100% + 60px);
+      -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+      transition: opacity 0.35s, transform 0.35s;
+      -webkit-transform: translate3d(-50px,0,0);
+      transform: translate3d(-50px,0,0);
+  }
+  
+  figure.effect-roxy figcaption::before {
+      position: absolute;
+      top: 30px;
+      right: 30px;
+      bottom: 30px;
+      left: 30px;
+      border: 1px solid #fff;
+      content: '';
+      opacity: 0;
+      -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+      transition: opacity 0.35s, transform 0.35s;
+      -webkit-transform: translate3d(-20px,0,0);
+      transform: translate3d(-20px,0,0);
+  }
+  
+  figure.effect-roxy figcaption {
+      padding: 3em;
+      text-align: left;
+  }
+  
+  figure.effect-roxy h2 {
+      padding: 30% 0 10px 0;
+      font-size: 16px;
+  }
+  
+  figure.effect-roxy p {
+      opacity: 0;
+      font-size: 16px;
+      -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+      transition: opacity 0.35s, transform 0.35s;
+      -webkit-transform: translate3d(-10px,0,0);
+      transform: translate3d(-10px,0,0);
+  }
+  
+  figure.effect-roxy:hover img {
+      opacity: 0.7;
+      -webkit-transform: translate3d(0,0,0);
+      transform: translate3d(0,0,0);
+  }
+  
+  figure.effect-roxy:hover figcaption::before,
+  figure.effect-roxy:hover p {
+      opacity: 1;
+      -webkit-transform: translate3d(0,0,0);
+      transform: translate3d(0,0,0);
+  }
+  
+  /*---------------*/
+  /***** Bubba *****/
+  /*---------------*/
+  
+  figure.effect-bubba {
+      background: #9e5406;
+      border-radius: 50px;
+  }
+  
+  figure.effect-bubba img {
+      opacity: 0.7;
+      -webkit-transition: opacity 0.35s;
+      transition: opacity 0.35s;
+  }
+  
+  figure.effect-bubba:hover img {
+      opacity: 0.4;
+  }
+  
+  figure.effect-bubba figcaption::before,
+  figure.effect-bubba figcaption::after {
+      position: absolute;
+      top: 30px;
+      right: 30px;
+      bottom: 30px;
+      left: 30px;
+      content: '';
+      opacity: 0;
+      -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+      transition: opacity 0.35s, transform 0.35s;
+  }
+  
+  figure.effect-bubba figcaption::before {
+      border-top: 1px solid #fff;
+      border-bottom: 1px solid #fff;
+      -webkit-transform: scale(0,1);
+      transform: scale(0,1);
+  }
+  
+  figure.effect-bubba figcaption::after {
+      border-right: 1px solid #fff;
+      border-left: 1px solid #fff;
+      -webkit-transform: scale(1,0);
+      transform: scale(1,0);
+  }
+  
+  figure.effect-bubba h2 {
+      -webkit-transition: -webkit-transform 0.35s;
+      transition: transform 0.35s;
+      -webkit-transform: translate3d(0,-20px,0);
+      transform: translate3d(0,-20px,0);
+      font-size: 28px;
+  }
+  
+  figure.effect-bubba p {
+      padding: 2px 2.5em;
+      opacity: 0;
+      font-size: 16px;
+      -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+      transition: opacity 0.35s, transform 0.35s;
+      -webkit-transform: translate3d(0,20px,0);
+      transform: translate3d(0,20px,0);
+  }
+  
+  figure.effect-bubba:hover figcaption::before,
+  figure.effect-bubba:hover figcaption::after {
+      opacity: 1;
+      -webkit-transform: scale(1);
+      transform: scale(1);
+  }
+  
+  figure.effect-bubba:hover h2,
+  figure.effect-bubba:hover p {
+      opacity: 1;
+      -webkit-transform: translate3d(0,0,0);
+      transform: translate3d(0,0,0);
+  }
+  
+  /*---------------*/
+  /***** Milo *****/
+  /*---------------*/
+  
+  figure.effect-milo {
+      background: #2e5d5a;
+      border-radius: 50px;
+  }
+  
+  figure.effect-milo img {
+      max-width: none;
+      width: -webkit-calc(100% + 100px);
+      width: calc(100% + 100px);
+      opacity: 1;
+      -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+      transition: opacity 0.35s, transform 0.35s;
+      -webkit-transform: translate3d(-30px,0,0) scale(1.12);
+      transform: translate3d(-30px,0,0) scale(1.12);
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+  }
+  
+  figure.effect-milo:hover img {
+      opacity: 0.5;
+      -webkit-transform: translate3d(0,0,0) scale(1);
+      transform: translate3d(0,0,0) scale(1);
+  }
+  
+  figure.effect-milo h2 {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      font-size: 28px;
+      padding-top: -10px;
+  }
+  
+  figure.effect-milo p {
+      padding: 0 -10px 0 0;
+      width: 65%;
+      border-right: 1px solid #fff;
+      font-size: 16px;
+      text-align: right;
+      opacity: 0;
+      -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+      transition: opacity 0.35s, transform 0.35s;
+      -webkit-transform: translate3d(-40px,0,0);
+      transform: translate3d(-40px,0,0);
+  }
+  
+  figure.effect-milo:hover p {
+      opacity: 1;
+      -webkit-transform: translate3d(0,0,0);
+      transform: translate3d(0,0,0);
+  }
+  
+  .modal-title {
+    text-align: center;
+    font-size: 26px;
+    position: relative;
+    color: black;
+    letter-spacing: 3px;
+    margin: auto;
+  }

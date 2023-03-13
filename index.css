@@ -1,0 +1,445 @@
+* {
+    max-width: 100%;
+    padding: 0px;
+    font-family: 'Kiwi Maru', serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+    line-height: 30px;
+  }
+
+  section{
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  .navbar {
+    background-image: url("https://github.com/catstar61529/Home/blob/main/bg0.png?raw=true");
+    background-size: 100% 100%;
+    padding: 0 0;
+    font-size: 20px;
+    color: #095695;
+  }
+
+
+  .navbar a {
+    color: inherit; /* 移除超連結顏色 */
+    text-decoration: none;  /* 移除超連結底線 */
+    display: block; /* 讓 <a> 填滿 <li> */
+}
+
+.navbar a:hover {
+  background-color: #77b4ff;
+  color: white;
+}
+  
+  section#s1 {
+    margin-top: 55px;
+    background-image: url("https://github.com/catstar61529/Home/blob/main/bg2.png?raw=true");
+    background-size: 100% 100%;
+    background-color: #ffebcd;
+    padding-bottom: 245px;
+    padding-left: -30px;
+  }
+
+  .header {
+    height: 100%;
+    max-width: 100%;
+    margin: auto;
+  }
+   
+  #myVideo {
+    position: absolute;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    margin-top: 270px;
+    width: 560px;
+    height: 315px;
+    border-radius: 140px 140px 140px 140px;
+    transform: scale(1.2);
+  }
+
+  .header h1 {
+    text-align: center;
+  }
+  
+  .square1 {
+    background: #77b4ff;
+    width: 350px;
+    height: 5px;
+    margin: auto;
+    margin-top: 30px;
+    box-shadow:  3px 3px 3px grey;
+  }
+  
+  .header h2 {
+    margin-top: 20px;
+    padding-bottom: 220px;
+    color: #095695;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  section#s2 {
+    background-image: url("https://github.com/catstar61529/Home/blob/main/bg.png?raw=true");
+    background-size: 100% 100%;
+    max-width: 100%;
+    max-height: 100%;
+    padding-bottom: 335px;
+  }
+  
+  section#s2 h1 {
+    padding-top: 130px;
+    color: #4B59A6;
+    font-weight: 400;
+    text-shadow: 0px 1px 2px #07155e;
+    font-size: 45px;
+    padding-left: 50px;
+  }
+
+  .square2 {
+    background: #77b4ff;
+    width: 590px;
+    height: 5px;
+    margin-top: 5px;
+    box-shadow: 3px 3px grey;
+    margin-top: 20px;
+  }
+
+  section#s2 h2 {
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 180px;
+    color: #095695;
+    font-weight: 300;
+    font-size: 20px;
+    max-width: 650px;
+    line-height: 50px;
+  }
+
+  section#s3 {
+    background-image: url("https://github.com/catstar61529/Home/blob/main/bg1.png?raw=true");
+    background-size: 100% 100%;
+    max-width: 100%;
+    max-height: 1200px;
+    padding-bottom: 400px;
+  }
+
+  section#s3 h1 {
+    padding-top: 260px;
+    padding-right: 50px;
+    color: #4B59A6;
+    font-weight: 400;
+    text-shadow: 0px 1px 2px #07155e;
+    font-size: 45px;
+    padding-right: 150px;
+    text-align: right;
+  }
+
+  .square3 {
+    background: #77b4ff;
+    width: 580px;
+    height: 5px;
+    margin-top: 20px;
+    margin-left: 380px;
+    box-shadow: 3px 3px grey;
+    text-align: right;
+  }
+
+  section#s3 h2 {
+    padding-top: 20px;
+    padding-left: 70px;
+    color: #095695;
+    font-weight: 300;
+    font-size: 20px;
+    max-width: 650px;
+    line-height: 50px;
+    margin-left: 320px;
+    text-align: left;
+  }
+
+  .four{
+    display: flex;
+    width: 1200px;
+    margin: 70px auto;
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  .item{
+    width: 400px;
+    margin: 0 15px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #f7b6a7;
+  }
+
+  .item h3{
+    color: #f5afac;
+  }
+
+  .item p{
+    color: rgb(112, 112, 112);
+  }
+
+  .item .icon{
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    margin: -75px auto 0;
+    border-radius: 55%;
+    padding: 10px;
+    position: relative;
+    color: #f5afac;
+  }
+
+  .item .icon:before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-top: 10px solid #f9cec2;
+    border-right: 10px solid #f9cec2;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid transparent;
+    left: -10px;
+    top: -10px;
+    border-radius: 55%;
+    transform: rotate(-45deg);
+  }
+
+  .col-sm-2 .card-body {
+    background-color: #00ffff;
+  }
+
+  .col-sm-8 .card-body {
+    background-color: #00ffff;
+  }
+
+  .col-sm-4 .card-body {
+    background-color: #00ffff;
+  }
+
+  .banner{
+    margin: 0;
+    padding-top: 20px;
+    width: 100%;
+    height: 100vh;
+    background-color: #8ab7e0;
+    background:
+    linear-gradient(100deg, #86C8BC 50%,
+     transparent 50%) center center / 100% 100%,
+    url("https://github.com/catstar61529/web/blob/gh-pages/JH18.JPG?raw=true") right center / auto 100%;
+  }
+
+  .container1{
+    width: 100%;
+    min-width: 1440px;
+    height: 100%;
+    margin: auto;
+    background-image: url("https://github.com/catstar61529/Home/blob/main/bg3.png?raw=true");
+    background-size: 100% 100%;
+  }
+
+  .banner-txt{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .banner-txt h1{
+    font-size: 45px;
+    padding: 30px;
+    font-weight: 500;
+    color: #8f3301;
+    margin-top: 100px;
+  }
+
+  .banner-txt h1 small{
+    display: block;
+    font-size: 25px;
+    font-weight: 300;
+    padding-top: 20px;
+    border-bottom: 5px solid #8f3301;
+    padding-bottom: 0.6em;
+    padding-top: 1em;
+  }
+
+  .banner-txt p{
+    font-size: 20px;
+    font-weight: 300;
+    color: #095695;
+  }
+
+  .bg1{
+    padding-left: 35px;
+  }
+
+  .bg1 a 
+  {
+    color: inherit; /* 移除超連結顏色 */
+    text-decoration: none;  /* 移除超連結底線 */
+  }
+
+  .btn1 {
+    background-image: src="https://github.com/catstar61529/Home/blob/main/btn1.png?raw=true";
+    width: 60%;
+    padding-top: 20px;
+  }
+
+  .btn1 p {
+    margin-top: -58px;
+    margin-left: 67px;
+  }
+
+  .btn1 p:hover{
+    color: #8f3301;
+    text-decoration:underline;
+  }
+
+  .banner1{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #8ab7e0;
+    background:
+    linear-gradient(260deg, #FFD4B2 52%,
+     transparent 50%) center center / 100% 100%,
+    url("https://github.com/catstar61529/Four-of-us/blob/gh-pages/Tainan.jpg?raw=true") left center / auto 150%;
+  }
+
+  .container2{
+    width: 100%;
+    min-width: 1440px;
+    height: 100%;
+    margin: auto;
+    background-image: url("https://github.com/catstar61529/Home/blob/main/bg4.png?raw=true");
+    background-size: 100% 100%;
+  }
+
+  .banner1-txt{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: right;
+    color: #a2a45f;
+  }
+
+  .banner1-txt h1{
+    font-size: 45px;
+    padding: 30px;
+    font-weight: 500;
+  }
+
+  .banner1-txt h1 small{
+    display: block;
+    font-size: 25px;
+    font-weight: 300;
+    padding-top: 20px;
+    border-bottom: 5px solid #a2a45f;
+    padding-bottom: 0.6em;
+    padding-top: 1em;
+  }
+
+  .banner1-txt p{
+    font-size: 20px;
+    font-weight: 300;
+    color: #095695;
+  }
+
+  .bg2 a 
+  {
+    color: inherit; /* 移除超連結顏色 */
+    text-decoration: none;  /* 移除超連結底線 */
+  }
+
+  .btn2 {
+    background-image: src="https://github.com/catstar61529/Home/blob/main/btn2.png?raw=true";
+    width: 268px;
+    padding-top: 20px;
+    margin-left: 760px;
+  }
+
+  .btn2 p {
+    margin-top: -44px;
+    text-align: right;
+    margin-right: 47px;
+  }
+
+  .btn2 p:hover{
+    color: #a2a45f;
+    text-decoration:underline;
+  }
+
+  .bg2{
+    padding-right: 35px;
+  }
+
+  section#s4 {
+    max-width: 100%;
+    max-height: 100%;
+    background-color: #ffebcd;
+    background-image: url("https://github.com/catstar61529/Home/blob/main/bg5.png?raw=true");
+    background-size: 100% 100%;
+    padding-top: 190px;
+    padding-bottom: 130px;
+  }
+
+  section#s4 h1 {
+    text-align: center;
+    margin: auto;
+    font-weight: 400;
+    color: #4B59A6;
+    font-weight: 400;
+    text-shadow: 0px 1px 2px #07155e;
+    font-size: 45px;
+    padding-bottom: 20px;
+  }
+
+  .square4 {
+    background: #77b4ff;
+    width: 750px;
+    height: 5px;
+    box-shadow: 3px 3px grey;
+    margin-top: 25px;
+    margin: auto;
+    margin-right: 195px;
+  }
+
+  section#s4 h2 {
+    text-align: left;
+    margin: auto;
+    font-weight: 300;
+    padding-top:30px;
+    line-height: 50px;
+    font-size: 20px;
+    color: #095695;
+  }
+
+  #loading_start{
+    width: 100%;
+    height: 100vh;
+    background-color: #FFF;
+    position: fixed;
+    top:0;
+    left: 0;
+    transition: .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    z-index: 1000;
+  }
+  #loading_start lottie-player{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 999;
+  }
+  
