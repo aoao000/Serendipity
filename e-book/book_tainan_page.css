@@ -1,0 +1,270 @@
+/* page1 */
+/* page2 */
+/* page3 */
+/* page4 */
+/* page5 */
+/* page6 */
+/* page7 */
+/* page8 */
+/* page9 */
+/* page10 */
+/* page11 */
+/* page12 */
+/* page13 */
+/* page14 */
+/* page15 */
+/* page16 */
+/* page17 */
+/* page18 */
+/* page19 */
+/* page20 */
+/* page21 */
+/* page22 */
+/* page23 */
+/* page24 */
+/* page25 */
+/* page26 */
+/* page27 */
+/* page28 */
+/* page29 */
+/* page30 */
+/* page31 */
+/* page32 */
+/* page33 */
+/* page34 */
+/* page35 */
+/* page36 */
+/* page37 */
+/* page38 */
+/* page39 */
+/* page40 */
+/* page41 */
+/* page42 */
+/* page43 */
+/* page44 */
+/* page45 */
+/* page46 */
+/* page47 */
+/* page48 */
+
+
+
+
+
+
+#page2:target ~ .side_page .move{
+    font-size: 16px;
+    top:60px;
+}
+#page3:target ~ .side_page .move{
+    font-size: 16px;
+    top:40px;
+}
+#page4:target ~ .side_page .move{
+    font-size: 16px;
+    top:20px;
+}
+#page5:target ~ .side_page .move{
+    font-size: 16px;
+    top:0px;
+}
+#page6:target ~ .side_page .move{
+    font-size: 16px;
+    top:-20px;
+}
+#page7:target ~ .side_page .move{
+    font-size: 16px;
+    top:-40px;
+}
+#page8:target ~ .side_page .move{
+    font-size: 16px;
+    top:-60px;
+}
+#page9:target ~ .side_page .move{
+    font-size: 16px;
+    top:-80px;
+}
+#page10:target ~ .side_page .move{
+    font-size: 16px;
+    top:-100px;
+}
+#page11:target ~ .side_page .move{
+    font-size: 16px;
+    top:-120px;
+}
+#page12:target ~ .side_page .move{
+    font-size: 16px;
+    top:-140px;
+}
+#page13:target ~ .side_page .move{
+    font-size: 16px;
+    top:-160px;
+}
+#page14:target ~ .side_page .move{
+    font-size: 16px;
+    top:-180px;
+}
+#page15:target ~ .side_page .move{
+    font-size: 16px;
+    top:-200px;
+}
+#page16:target ~ .side_page .move{
+    font-size: 16px;
+    top:-220px;
+}
+#page17:target ~ .side_page .move{
+    font-size: 16px;
+    top:-240px;
+}
+#page18:target ~ .side_page .move{
+    font-size: 16px;
+    top:-260px;
+}
+#page19:target ~ .side_page .move{
+    font-size: 16px;
+    top:-280px;
+}
+#page20:target ~ .side_page .move{
+    font-size: 16px;
+    top:-300px;
+}
+#page21:target ~ .side_page .move{
+    font-size: 16px;
+    top:-320px;
+}
+#page22:target ~ .side_page .move{
+    font-size: 16px;
+    top:-340px;
+}
+#page23:target ~ .side_page .move{
+    font-size: 16px;
+    top:-360px;
+}
+#page24:target ~ .side_page .move{
+    font-size: 16px;
+    top:-380px;
+}
+#page25:target ~ .side_page .move{
+    font-size: 16px;
+    top:-400px;
+}
+#page26:target ~ .side_page .move{
+    font-size: 16px;
+    top:-420px;
+}
+#page23:target ~ .side_page .move{
+    font-size: 16px;
+    top:-440px;
+}
+#page24:target ~ .side_page .move{
+    font-size: 16px;
+    top:-460px;
+}
+#page25:target ~ .side_page .move{
+    font-size: 16px;
+    top:-480px;
+}
+#page26:target ~ .side_page .move{
+    font-size: 16px;
+    top:-500px;
+}
+#page27:target ~ .side_page .move{
+    font-size: 16px;
+    top:-520px;
+}
+#page28:target ~ .side_page .move{
+    font-size: 16px;
+    top:-540px;
+}
+#page29:target ~ .side_page .move{
+    font-size: 16px;
+    top:-560px;
+}
+#page29:target ~ .side_page .move{
+    font-size: 16px;
+    top:-580px;
+}
+#page30:target ~ .side_page .move{
+    font-size: 16px;
+    top:-600px;
+}
+#page31:target ~ .side_page .move{
+    font-size: 16px;
+    top:-620px;
+}
+#page32:target ~ .side_page .move{
+    font-size: 16px;
+    top:-640px;
+}
+#page33:target ~ .side_page .move{
+    font-size: 16px;
+    top:-660px;
+}
+#page34:target ~ .side_page .move{
+    font-size: 16px;
+    top:-680px;
+}
+#page35:target ~ .side_page .move{
+    font-size: 16px;
+    top:-700px;
+}
+#page36:target ~ .side_page .move{
+    font-size: 16px;
+    top:-720px;
+}
+#page37:target ~ .side_page .move{
+    font-size: 16px;
+    top:-740px;
+}
+#page38:target ~ .side_page .move{
+    font-size: 16px;
+    top:-760px;
+}
+#page39:target ~ .side_page .move{
+    font-size: 16px;
+    top:-780px;
+}
+#page40:target ~ .side_page .move{
+    font-size: 16px;
+    top:-800px;
+}
+#page41:target ~ .side_page .move{
+    font-size: 16px;
+    top:-820px;
+}
+#page42:target ~ .side_page .move{
+    font-size: 16px;
+    top:-840px;
+}
+#page43:target ~ .side_page .move{
+    font-size: 16px;
+    top:-860px;
+}
+#page44:target ~ .side_page .move{
+    font-size: 16px;
+    top:-880px;
+}
+#page45:target ~ .side_page .move{
+    font-size: 16px;
+    top:-900px;
+}
+#page46:target ~ .side_page .move{
+    font-size: 16px;
+    top:-920px;
+}
+#page47:target ~ .side_page .move{
+    font-size: 16px;
+    top:-940px;
+}
+#page48:target ~ .side_page .move{
+    font-size: 16px;
+    top:-960px;
+}
+#page49:target ~ .side_page .move{
+    font-size: 16px;
+    top:-980px;
+}
+#page50:target ~ .side_page .move{
+    font-size: 16px;
+    top:-1050px;
+}

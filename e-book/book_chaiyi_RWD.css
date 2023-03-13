@@ -1,0 +1,43 @@
+@media screen and (min-width: 1040px) and (max-width: 1370px){
+    .content{
+        top:80px;
+        height: 80vh;
+    }
+    .content .page img{
+        top:-70px;
+    }
+  }
+@media screen and (min-width: 720px) and (max-width: 1040px){
+    .content{
+        top:120px;
+        left: 95px;
+        height: 70vh;
+    }
+    .content .page img{
+        top:-40px;
+    }
+    .catalog {
+        left: 10px;
+    }
+}
+@media screen and (min-width: 300px) and (max-width: 720px){
+    .content{
+        top:200px;
+        left: 95px;
+        height: 50vh;
+    }
+    .content .page img{
+        top:-40px;
+    }
+    .catalog {
+        left: 10px;
+    }
+}
+@media screen and (min-width: 500px) and (max-width: 1410px){
+    .botton_space{
+        position: absolute;
+        right: 20px;
+        bottom: 20px;
+        z-index: 999;
+      }
+}

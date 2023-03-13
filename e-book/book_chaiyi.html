@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./book_chaiyi.css">
+    <link rel="stylesheet" href="./book_chaiyi_RWD.css">
+    <link rel="stylesheet" href="./book_chaiyi_page.css">
+    <link rel="icon" href="./LOGO.ico" type="image/x-icon" >
+    <title>Chaiyi book</title>
+</head>
+<body>  
+    <div id="loading_start">
+        <lottie-player src="https://lottie.host/2553e2c9-6a4d-4a71-9985-3984b2ea3351/r1sgUZaldx.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></lottie-player>
+    </div>
+    <div class="catalog">
+        <div class="dot">
+            <a href="./嘉義雜誌A3輸出.pdf" download="Chiyibook">
+                <img src="./download-button.png" alt="">
+            </a>
+        </div>
+        <div class="dot">
+            <a href="./book_tainan.html">
+                <img src="web.png" alt="">
+            </a>
+        </div>
+        <div class="dot">
+            <a href="index.html">
+                <img src="./home.png" alt="">
+            </a>
+        </div>
+    </div>
+    <div class="botton_space">
+        <button id="right" onclick="next()">
+            <a href="#"></a><img src="./arrow-next.png"width="100%" height="100%"alt="">
+        </button>
+        <button id="left" onclick="previous()">
+            <img src="./arrow-previous.png"width="100%" height="100%"alt="">
+        </button>
+    </div>
+    <div id="con" class="content" >
+        <div class="page" id="page1" >
+            <img src="./嘉義輸出/嘉義雜誌A4輸出_Cover1.png" alt=""> 
+            <a href="https://www.cwb.gov.tw/V8/C/W/County/County.html?CID=10020" target="_blank"><div class="weather"></div></a>
+        </div>
+        <div class="page" id="page2">
+            <img src="./嘉義輸出/嘉義雜誌A4輸出_page1.png" alt="">
+            <div class="chapter c1_1" onclick="Jump(1)"></div>
+            <div class="chapter c1_2" onclick="Jump(2)"></div>
+            <div class="chapter c1_3" onclick="Jump(3)"></div>
+            <div class="chapter c1_4" onclick="Jump(4)"></div> 
+            <div class="chapter c1_5" onclick="Jump(5)"></div> 
+            <div class="chapter c2_1" onclick="Jump(6)"></div>
+            <div class="chapter c2_2" onclick="Jump(7)"></div>
+            <div class="chapter c2_3" onclick="Jump(8)"></div>
+        </div>
+        <div class="page" id="page3">
+            <img src="./嘉義輸出/嘉義雜誌A4輸出_page2.png" alt="">
+            <div class="chapter c3_1" onclick="Jump(9)"></div>
+        </div>
+        <div class="page" id="page4">
+            <img src="./嘉義輸出/嘉義雜誌A4輸出_page3.png" alt="">
+        </div>
+        <div class="page" id="page5">
+            <img src="./嘉義輸出/嘉義雜誌A4輸出_page4.png" alt="">
+        </div>
+        <div class="page" id="page6">
+            <img src="./嘉義輸出/嘉義雜誌A4輸出_page5.png" alt="">
+        </div>
+        <div class="page" id="page7">
+            <img src="./嘉義輸出/嘉義雜誌A4輸出_page6.png" alt="">
+            <div class="loca_island"><a href="https://reurl.cc/VRW7Z5" target="_blank"><img src="/LOCATION.png" alt=""></div></a>
+            <div class="back" onclick="catelog(1)"></div>
+        </div>
+        <div class="page" id="page8">
+            <img src="./嘉義輸出/嘉義雜誌A4輸出_page7.png" alt="">
+            <div class="back" onclick="catelog(2)"></div>
+        </div>
+        <div class="page" id="page9">
+            <img src="./嘉義輸出/嘉義雜誌A4輸出_page8.png" alt="">
+            <div class="back" onclick="catelog(3)"></div>
+        </div>
+        <div class="page" id="page10">
+            <img src="./嘉義輸出/嘉義雜誌A4輸出_page9.png" alt="">
+        </div>
+        <div class="page" id="page11">
+            <img src="./嘉義輸出/嘉義雜誌A4輸出_page10.png" alt="">
+            <div class="back" onclick="catelog(4)"></div>
+        </div>
+        <div class="page" id="page12">
+            <img src="./嘉義輸出/嘉義雜誌A4輸出_page11.png" alt="">
+            <div class="back" onclick="catelog(5)"></div>
+        </div>
+        <div class="page" id="page13">
+            <img src="./嘉義輸出/嘉義雜誌A4輸出_page12.png" alt="">
+            <div class="function_relax">
+                <a href="./picture_gallery.html" target="_blank">
+                    <div class="open_botton"></div>
+                </a>
+                <div class="audio_div">
+                    <audio controls>
+                        <source src="./wind.wav" type="audio/wav">
+                    </audio>
+                </div>
+            </div>
+        </div>
+        <div class="page" id="page14">
+            <img src="./嘉義輸出/嘉義雜誌A4輸出_page13.png" alt="">
+        </div>
+        <div class="page" id="page15">
+            <img src="./嘉義輸出/嘉義雜誌A4輸出_page14.png" alt="">
+        </div>
+        <div class="page" id="page16">
+            <img src="./嘉義輸出/嘉義雜誌A4輸出_page15.png" alt="">
+        </div>
+        <div class="page" id="page17">
+            <img src="./嘉義輸出/嘉義雜誌A4輸出_page16.png" alt="">
+            <div class="back" onclick="catelog(6)"></div>
+        </div>
+        <div class="page" id="page18">
+            <img src="./嘉義輸出/嘉義雜誌A4輸出_page17.png" alt="">
+        </div>
+        <div class="page" id="page19">
+            <img src="./嘉義輸出/嘉義雜誌A4輸出_page18.png" alt="">
+        </div>
+        <div class="page" id="page20">
+            <img src="./嘉義輸出/嘉義雜誌A4輸出_page19.png" alt="">
+            <div class="back" onclick="catelog(7)"></div>
+        </div>
+        <div class="page" id="page21">
+            <img src="./嘉義輸出/嘉義雜誌A4輸出_page20.png" alt="">
+        </div>
+        <div class="page" id="page22">
+            <img src="./嘉義輸出/嘉義雜誌A4輸出_page21.png" alt="">
+        </div>
+        <div class="page" id="page23">
+            <img src="./嘉義輸出/嘉義雜誌A4輸出_page22.png" alt="">
+        </div>
+        <div class="page" id="page24">
+            <img src="./嘉義輸出/嘉義雜誌A4輸出_page23.png" alt="">
+            <div class="back" onclick="catelog(8)"></div>
+        </div>
+        <div class="page" id="page25">
+            <img src="./嘉義輸出/嘉義雜誌A4輸出_page24.png" alt="">
+        </div>
+        <div class="page" id="page26">
+            <img src="./嘉義輸出/嘉義雜誌A4輸出_page25.png" alt="">
+        </div>
+        <div class="page" id="page27">
+            <img src="./嘉義輸出/嘉義雜誌A4輸出_page26.png" alt="">
+        </div>
+        <div class="page" id="page28">
+            <img src="./嘉義輸出/嘉義雜誌A4輸出_page27.png" alt="">
+        </div>
+        <div class="page" id="page29">
+            <img src="./嘉義輸出/嘉義雜誌A4輸出_page28.png" alt="">
+        </div>
+        <div class="page" id="page30">
+            <img src="./嘉義輸出/嘉義雜誌A4輸出_page29.png" alt="">
+        </div>
+        <div class="page" id="page31">
+            <img src="./嘉義輸出/嘉義雜誌A4輸出_page30.png" alt="">
+        </div>
+        <div class="page" id="page32">
+            <img src="./嘉義輸出/嘉義雜誌A4輸出_page31.png" alt="">
+        </div>
+        <div class="page" id="page33">
+            <img src="./嘉義輸出/嘉義雜誌A4輸出_page32.png" alt="">
+            <div class="back" onclick="catelog(9)"></div>
+        </div>
+        <div class="page" id="page34">
+            <img src="./嘉義輸出/嘉義雜誌A4輸出_page33.png" alt="">
+        </div>
+        <div class="page" id="page35">
+            <img src="./嘉義輸出/嘉義雜誌A4輸出_page34.png" alt="">
+        </div>
+        <div class="page" id="page36">
+            <img src="./嘉義輸出/嘉義雜誌A4輸出_page35.png" alt="">
+        </div>
+        <div class="page" id="page37">
+            <img src="./嘉義輸出/嘉義雜誌A4輸出_page36.png" alt="">
+        </div>
+        <div class="page" id="page38">
+            <img src="./嘉義輸出/嘉義雜誌A4輸出_page37.png" alt="">
+        </div>
+        <div class="page" id="page39">
+            <img src="./嘉義輸出/嘉義雜誌A4輸出_page38.png" alt="">
+        </div>
+        <div class="page" id="page40">
+            <img src="./嘉義輸出/嘉義雜誌A4輸出_Cover2.png" alt="">
+        </div>
+    </div>
+</body>
+<script src="./book_chaiyi.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script> 
+</html>
